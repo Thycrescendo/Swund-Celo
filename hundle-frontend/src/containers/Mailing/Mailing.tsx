@@ -10,10 +10,10 @@ const Mailing: React.FC = () => {
       <div className="max-w-screen-lg md:pt-60 pt-12 md:mx-auto mx-4">
         <div className="flex flex-col">
           <span className="text-darkGray font-Montserrat text-5xl font-bold mb-5">
-  Stay in the Loop with Swund
+  Stay in the Loop with Hundle
 </span>
 <span className="text-darkGray font-Montserrat text-lg">
-  Join our mailing list to stay updated on AI insights, Celo blockchain updates, trading strategies, and new token discoveries on Swund. <br />
+  Join our mailing list to stay updated on AI insights, Celo blockchain updates, trading strategies, and new token discoveries on Hundle. <br />
   Empower your crypto trading with decentralized tools
 </span>
         </div>

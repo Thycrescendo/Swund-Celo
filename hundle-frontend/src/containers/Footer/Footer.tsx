@@ -8,7 +8,7 @@ const Footer: React.FC = () => {
           <div className="flex mb-8">
             <div className="bg-gradient-to-r from-blue1 to-blue2 w-10 h-10 rounded-full mr-4" />
             <span className="text-lg text-darkGray font-Montserrat font-bold">
-              <a href="#">Swund</a>
+              <a href="#">Hundle</a>
             </span>
             <span className="text-darkGray font-Montserrat text-lg">
               The world&apos;s first decentralized AI-powered crypto trading app on Celo blockchain. <br />

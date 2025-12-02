@@ -1,128 +1,124 @@
-# 🚀 Swund – Decentralized AI-Powered Crypto Trading App on Celo × Farcaster
+# 🚀 Hundle – Decentralized AI-Powered Crypto Trading App on Celo × Farcaster
 
 ## 📖 Overview
-**Swund** is the first production-grade, fully decentralized AI-powered crypto trading app built natively on **Celo** and deeply integrated with **Farcaster**.
+**Hundle** is the first truly native, production-grade, AI-powered crypto trading terminal that lives inside **Warpcast** and runs entirely on **Celo**.
 
-Live inside Warpcast as a high-performance mini app / Frame, Swund delivers real-time charts, AI-generated trading signals, onchain execution, and a community-driven trading floor — all with Celo’s mobile-first, ultra-low-fee experience and Farcaster’s social superpowers.
+Real-time charts, personalized AI trading signals, one-tap onchain execution, social alpha feeds, and copy-trading — all inside a lightning-fast Farcaster mini app powered by Celo’s mobile-first, ultra-low-fee chain.
 
-- Trade instantly with cUSD, USDC, CELO and any Celo token  
-- Get personalized AI alpha directly in your Farcaster feed  
-- Execute trades without ever leaving Warpcast  
-- Discuss, follow, and copy-trade top performers onchain  
+- Trade cUSD, USDC, CELO, and any Celo token without leaving your Farcaster feed  
+- Get live AI alpha from Grok or onchain LLMs directly in Warpcast  
+- Follow top traders, see their casts + onchain P&L, copy with one tap  
+- Fully decentralized, no KYC, no custodians  
 
-🔗 Repository: [github.com/Thycrescendo/swund](https://github.com/Thycrescendo/swund)  
-🔗 Live App: swund.xyz (or add Frame via Warpcast)
+🔗 Repository: [github.com/Thycrescendo/hundle](https://github.com/Thycrescendo/hundle)  
+🔗 Live: hundle.xyz (or add via Frame in Warpcast)
 
 ---
 
-## ⚡ What Swund Does
+## ⚡ What Hundle Does
 - Real-time multi-chart interface inside a Farcaster mini app  
-- AI assistant (powered by Grok / Claude / onchain LLMs) delivering live market analysis & signals  
-- One-tap onchain trading using Celo WalletKit + Social Connect  
-- Social trading: follow top traders, see their casts + P&L onchain  
-- Token discovery with Farcaster sentiment & onchain volume overlays  
-- Fully decentralized — no custodians, no KYC, no withdrawal delays  
+- AI assistant delivering live market analysis, sentiment, and executable signals  
+- Instant onchain trading via Celo WalletKit + Social Connect  
+- Social trading floor: discover what power users are buying right now  
+- Token screener with Farcaster sentiment + onchain volume overlay  
+- Everything verifiable onchain — trades, signals, reputation  
 
 ---
 
 ## 🧩 The Problem It Solves
-Current trading experiences on Farcaster are fragmented:
-- Most Frames are gimmicks, not real trading tools  
-- Centralized apps feel out of place in a social feed  
-- High fees and slow chains kill mobile trading momentum  
+Trading on Farcaster today is broken:  
+- Frames are toys, not real trading tools  
+- Centralized apps kill the vibe and cost a fortune in fees  
+- Alpha lives in casts, but you still have to leave to trade  
 
-Swund fixes this with a **native, fast, social, AI-first trading terminal** that lives where the alpha already flows — inside Warpcast, powered by Celo.
+Hundle brings the entire trading experience into Warpcast, powered by Celo — fast, cheap, social, and fully onchain.
 
 ---
 
 ## ✨ Core Features
-- **Farcaster-Native Mini App** → Feels instant inside Warpcast  
-- **Real-Time Charts** → Multi-token, customizable grid (Chart.js + live Celo data)  
-- **AI Trading Assistant** → Trend analysis, support/resistance, personalized signals  
-- **One-Tap Trading** → Execute with cUSD/USDC via Celo’s mini-pay + Valora/WalletKit  
-- **Social Alpha Layer** → See what tokens power users are buying, right in the feed  
-- **Copy-Trading Feeds** → Follow top performers, replicate with one click  
-- **Onchain Everything** → Trades, signals, and reputation fully verifiable  
+- Farcaster-native mini app (instant load inside Warpcast)  
+- Real-time multi-token charts with customizable layouts  
+- AI Trading Brain (Grok / Claude / onchain LLM powered)  
+- One-tap swaps & limit orders using Celo’s MiniPay & native stables  
+- Social Alpha Feed – see what top traders are buying in real time  
+- Copy-trading with a single button  
+- Trader profiles linked to Farcaster identity  
 
 ---
 
-## 🗺 Roadmap – Six Waves to the Ultimate Social Trading Terminal
-1. **Wave 1: Launchpad** – Live Frames, basic charts, Celo wallet connect  
-2. **Wave 2: Core Trading** – Multi-chart mini app, real-time AI signals, onchain swaps  
-3. **Wave 3: AI Alpha Engine** – Grok-powered predictive models, sentiment from casts  
-4. **Wave 4: Social Trading** – Leaderboards, copy-trading, trader profiles on Farcaster  
-5. **Wave 5: Community Floor** – Live trading channels, threaded signal discussions  
-6. **Wave 6: Intelligent Positions (iNFTs)** – Tokenized trading strategies you can own & trade  
-
-Theme: From alpha in a cast → to executed trade → to shared profit — all inside Farcaster.
+## 🗺 Roadmap – Six Waves to the Social Trading Terminal
+1. **Wave 1: Ignition** – Live Frames, charts, Celo connect  
+2. **Wave 2: Core Terminal** – Full mini app, real-time AI signals, onchain execution  
+3. **Wave 3: AI Alpha Engine** – Predictive models + cast sentiment analysis  
+4. **Wave 4: Social Trading** – Leaderboards, copy-trading, verified trader badges  
+5. **Wave 5: Trading Floor** – Live channels, threaded signals, group positions  
+6. **Wave 6: Intelligent Positions (iNFTs)** – Tokenized strategies you can own, trade, and subscribe to  
 
 ---
 
 ## 🛠 Tech Stack
 - Next.js App Router + TypeScript  
-- Tailwind CSS (mobile-perfect for Warpcast)  
+- Tailwind CSS (mobile-first for Warpcast)  
 - Celo Blockchain + WalletKit + MiniPay  
 - Farcaster / Neynar SDK + Frames v2  
-- Airstack (social graph + follow data)  
-- Viem / Wagmi (Celo-native)  
-- The Graph + Celo subgraphs for indexing  
-- Grok API / OpenRouter for AI signals  
-- Vercel (edge-deployed for <400ms global load)
+- Airstack (social graph & follows)  
+- Viem + Wagmi (Celo-optimized)  
+- The Graph + Celo subgraphs  
+- Grok API / OpenRouter for AI  
+- Vercel Edge (global <400ms load)
 
 ---
 
-## ⚙️ Installation & Local Dev
+## ⚙️ Installation & Local Development
 ```bash
-git clone https://github.com/Thycrescendo/swund.git
-cd swund
+git clone https://github.com/Thycrescendo/hundle.git
+cd hundle
 npm install
 
-# Copy env example
 cp .env.example .env.local
-
-# Add your keys:
+# Add:
 # NEXT_PUBLIC_NEYNAR_API_KEY=
 # CELO_PROVIDER_URL=
-# GROK_API_KEY= (or other LLM)
+# GROK_API_KEY= (optional)
 
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) → works standalone or paste into Warpcast as a Frame.
-
-One-click deploy → Vercel (already configured)
+Open [http://localhost:3000](http://localhost:3000) — works standalone or paste into Warpcast as a Frame.  
+One-click deploy → Vercel (config included)
 
 ---
 
 ## 🤝 Contributing
-Love onchain trading + Farcaster? Help us build the terminal traders actually live in.
+Help build the trading terminal Farcaster deserves.
 
-- Add new chart indicators  
-- Improve AI prompt engineering  
-- Build new signal types  
-- Ship new Celo tokens / pools  
+- New indicators & chart tools  
+- Better AI prompts & signal logic  
+- More Celo pools & tokens  
+- UI/UX for power traders  
 
-Maintainer: [@thycrescendo](https://warpcast.com/thycrescendo) on Farcaster
+DM or cast @thycrescendo on Warpcast
 
 ---
 
 ## 📜 License
-MIT – ship fast, ship free.
+MIT – build, ship, profit.
 
 ---
 
 ## 🙏 Acknowledgments
-Built with massive respect for:
-- Celo – the mobile-first chain that actually works  
-- Farcaster & Warpcast – where the best alpha lives  
-- Neynar, Airstack, Val.town – making social + onchain composability real  
+Powered by the best ecosystems in crypto:  
+- Celo – the chain that actually works on mobile  
+- Farcaster & Warpcast – where alpha is born  
+- Neynar, Airstack, Val.town – making it all composable  
 
 ---
 
-# 🌌 Swund – The AI-Powered Trading Floor of Farcaster
-Live where the conversation is. Trade where the alpha drops.
+# 🌌 Hundle – Where Alpha Meets Execution
+The trading floor of Farcaster.  
+Live on Celo. Built for speed.
 
-Start trading: add Frame or visit swund.xyz  
-Repository: github.com/Thycrescendo/swund  
+Start trading: hundle.xyz or add the Frame in Warpcast  
+Code: github.com/Thycrescendo/hundle  
 
-Let’s make trading social again. 🚀
+Let’s hundle. 🚀
