@@ -12,10 +12,10 @@ export default function Home(): JSX.Element {
   return (
     <>
       <Head>
-        <title>Hundle - Decentralized AI-Powered Crypto Trading on the Polygon chain</title>
+        <title>Hundle - Decentralized AI-Powered Crypto Trading on the Celo chain</title>
         <meta
           name="description"
-          content="Hundle is a decentralized, AI-powered crypto trading app built on the Polygon Chain. Trade crypto with real-time analysis, AI insights, and community tools for transparent, accessible trading."
+          content="Hundle is a decentralized, AI-powered crypto trading app built on the Celo Chain. Trade crypto with real-time analysis, AI insights, and community tools for transparent, accessible trading."
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>

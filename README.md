@@ -13,6 +13,7 @@ Real-time charts, personalized AI trading signals, one-tap onchain execution, so
 🔗 Repository: [github.com/Thycrescendo/hundle](https://github.com/Thycrescendo/hundle)  
 🔗 Live: hundle.xyz (or add via Frame in Warpcast)
 
+https://youtu.be/Qd-18oNrrDA
 ---
 
 ## ⚡ What Hundle Does
